@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+}
+
+.toggle p{
+    color: gray;
+}
+
+#darkmode{
+    cursor: pointer;
+}
+
+
+.smd{
+    line-height: 10%;
+}
+
+.smd p{
+    color: gray;
+}
+
+.smd h3{
+    font-weight: 700;
+}
+
+.following{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.username{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.username p{
+    color: hsl(228, 12%, 44%);
+}
+
+.username img{
+    margin-right: 5px;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10%;
+}
+
+.numbers h1{
+    font-weight: 700;
+}
+
+.numbers p{
+    font-size: small;
+    letter-spacing:1px;
+    color: gray;
+}
+
+.latest{
+    display: flex;
+    justify-content: center;
+}
+
+.latest p{
+    color: hsl(163, 72%, 41%);
+    font-weight: 400;
+}
+
+.social-card{
+    border-top: 4px solid;
+    border-radius: 4px;
+    margin-right: 30px;
+    background-color: hsl(227, 47%, 96%);
+    margin-top: 10px;
+}
+
+.darkcard{
+    background-color: hsl(228, 28%, 20%) !important;
+
+}
+
+.facebook{
+    border-color: hsl(208, 92%, 53%);
+}
+
+.twitter{
+    border-color: hsl(203, 89%, 53%);
+}
+
+.instagram{
+    border-color: hsl(37, 97%, 70%);
+}
+
+.youtube{
+    border-color: hsl(348, 97%, 39%) ;
+}
+
+.overview{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-card{
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+    background-color: hsl(227, 47%, 96%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.left , .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.right{
+    align-items: center;
+}
+
+
+.left p{
+    font-weight: 700;
+    color: gray;
+}
+
+.left h2{
+    font-weight: 700;
+}
+
+#darkmode{
+    cursor: pointer;
+}
+
+.attribution-dark{
+    color: wheat;
+}
